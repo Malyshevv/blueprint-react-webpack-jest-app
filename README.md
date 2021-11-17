@@ -21,6 +21,12 @@ $ npm start
   - hmr :sunglasses:
 
 # :heartpulse: Create new components in shared :heartpulse:
+- Go https://www.npmjs.com/package/generator-react-ts-component-dir
+```
+npm install -g yo
+npm install -g generator-react-ts-component-dir
+```
+- use this
 ``` 
 yo react-ts-component-dir NAME_COMPONENTS .\src\shared\
 ```

@@ -50,7 +50,7 @@ yo react-ts-component-dir NAME_COMPONENTS .\src\shared\
 
 # Troubleshooting
 
-if you get error - ReferenceError: document is not defined
+if you get error - ` ReferenceError: document is not defined `
 
 Example fix
 ```

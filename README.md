@@ -13,14 +13,14 @@ $ npm start
 ```
 - in your web browser navigate to `https://localhost:3000`
 
-# 	:robot: we have in this blueprint  :robot:
+# 	:robot: We have in this blueprint  :robot:
   - react :partying_face:
   - webpack :smiling_face_with_three_hearts:
   - jest :stuck_out_tongue_winking_eye:
   - babel :disguised_face:
   - hmr :sunglasses:
 
-# :heartpulse: create new components in shared :heartpulse:
+# :heartpulse: Create new components in shared :heartpulse:
 ``` 
 yo react-ts-component-dir NAME_COMPONENTS .\src\shared\
 ```

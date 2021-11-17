@@ -1,5 +1,5 @@
-# React web application with webpack blueprint
-This repo contains a blueprint for building React web applications with webpack. Using this repo you can quickly get started and extend it with additional building blocks.
+# blueprint-react-webpack-jest-app web 
+This repo contains a blueprint for building React web applications with webpack, jest, hmr, babel.... Using this repo you can quickly get started and extend it with additional building blocks.
 
 # Getting started
 - clone this repo
@@ -19,6 +19,19 @@ $ npm start
   - jest :stuck_out_tongue_winking_eye:
   - babel :disguised_face:
   - hmr :sunglasses:
+
+:speech_balloon: Others: 
+  - react-router-dom v6
+  - axios
+  - react-redux
+  - formik
+  - helmet
+  - compression
+  - enzyme
+  - postcss
+  - moment-timezone
+  - classnames
+  - reach/dialog
 
 # :heartpulse: Create new components in shared :heartpulse:
 - Go https://www.npmjs.com/package/generator-react-ts-component-dir

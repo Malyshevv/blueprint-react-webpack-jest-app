@@ -25,6 +25,8 @@ $ npm start
 :speech_balloon: Others: 
   - react-router-dom v6
   - axios
+  - file-loader
+  - css-loader
   - react-redux
   - formik
   - helmet

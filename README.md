@@ -1,1 +1,5 @@
-# blueprint-react-webpack-jest-app
+-react
+-webpack
+-jest
+-babel
+-hmr

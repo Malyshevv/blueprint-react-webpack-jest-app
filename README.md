@@ -4,4 +4,5 @@
 - babel
 - hmr
 
-*  yo react-ts-component-dir Footer .\src\shared\
+:shipit: create new components in shared
+> yo react-ts-component-dir NAME_COMPONENTS .\src\shared\

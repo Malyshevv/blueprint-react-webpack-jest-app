@@ -1,4 +1,4 @@
-[^note]:
+
   - react
   - webpack
   - jest

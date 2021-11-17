@@ -21,6 +21,15 @@ module.exports = {
     externals: [nodeExternals()],
     module: {
         rules: [{
+            test: /\.(svg|png|jpg|jpeg|gif)$/,
+            use: [{
+                loader: 'file-loader',
+                options: {
+                    name: 'images/[name].[ext]',
+                    publicPath: 'static/'
+                },
+            }],
+        },{
             test: /\.[jt]sx?$/,
             use: {
                 loader: 'babel-loader',

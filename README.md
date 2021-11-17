@@ -13,7 +13,7 @@ $ npm start
 ```
 - in your web browser navigate to `https://localhost:3000`
 
-# 	:robot: app use  :robot:
+# 	:robot: we have in this blueprint  :robot:
   - react :partying_face:
   - webpack :smiling_face_with_three_hearts:
   - jest :stuck_out_tongue_winking_eye:

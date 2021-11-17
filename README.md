@@ -1,4 +1,4 @@
-# blueprint-react-webpack-jest-app web 
+# Blueprint react , webpack and jest app  
 This repo contains a blueprint for building React web applications with webpack, jest, hmr, babel.... Using this repo you can quickly get started and extend it with additional building blocks.
 
 # Getting started

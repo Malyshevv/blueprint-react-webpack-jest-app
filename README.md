@@ -1,5 +1,5 @@
--react
--webpack
--jest
--babel
--hmr
+- react
+- webpack
+- jest
+- babel
+- hmr

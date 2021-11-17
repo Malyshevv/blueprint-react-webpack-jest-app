@@ -8,9 +8,7 @@ export const indexTemplate = (content,token) => `
         <script>window.__token__ = '${token}' </script>
     </head>
     <body>
-    <div id="App">
-        ${content}
-    </div>
+    <div id="App">${content}</div>
     <div id="modal_root"></div>
     </body>
     </html>

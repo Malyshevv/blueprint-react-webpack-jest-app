@@ -47,3 +47,27 @@ npm install -g generator-react-ts-component-dir
 ``` 
 yo react-ts-component-dir NAME_COMPONENTS .\src\shared\
 ```
+
+# Troubleshooting
+
+if you get error - ReferenceError: document is not defined
+
+Example fix
+```
+function AppComponent() {
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+    return (
+        <div>
+            {mounted && (
+                <BrowserRouter>
+                    <Main/>
+                </BrowserRouter>
+            )}
+        </div>
+    );
+}
+```

@@ -55,7 +55,7 @@ yo react-ts-component-dir NAME_COMPONENTS .\src\shared\
 - Api ``(nodejs,express, mysql)`` https://github.com/Malyshevv/api-nodejs-express-mysql
 
 
-# Troubleshooting
+# :electric_plug: Troubleshooting
 
 if you get error - ` ReferenceError: document is not defined `
 

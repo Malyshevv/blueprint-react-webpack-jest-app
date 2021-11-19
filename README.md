@@ -49,10 +49,10 @@ yo react-ts-component-dir NAME_COMPONENTS .\src\shared\
 ```
 
 # Api for this app
-If you needed fast up api for app , you can use my blueprint api app
+``If you needed fast up api for app , you can use my blueprint api app``
 
-- `` Api (nodejs,express, mongodb) `` https://github.com/Malyshevv/api-nodejs-express-mysql
-- `` Api (nodejs,express, mysql) `` https://github.com/Malyshevv/api-nodejs-express-mysql
+- Api ``(nodejs,express, mongodb) `` https://github.com/Malyshevv/api-nodejs-express-mysql
+- Api ``(nodejs,express, mysql) `` https://github.com/Malyshevv/api-nodejs-express-mysql
 
 
 # Troubleshooting

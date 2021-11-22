@@ -1,5 +1,5 @@
-# :thought_balloon: Blueprint react , webpack and jest app
-This repo contains a blueprint for building React web applications with webpack, jest, hmr, babel.... Using this repo you can quickly get started and extend it with additional building blocks. 
+# :thought_balloon: Blueprint react , webpack and jest app (SSR)
+This repo contains a blueprint for building React web applications with webpack, jest, babel.... Using this repo you can quickly get started and extend it with additional building blocks. 
 
  👀You can try this - https://codesandbox.io/s/github/Malyshevv/blueprint-react-webpack-jest-app
 

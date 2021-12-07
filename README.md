@@ -5,6 +5,9 @@ This repo contains a blueprint for building React web applications with webpack,
 
 # :writing_hand: Getting started
 - clone this repo
+```
+git clone https://github.com/Malyshevv/blueprint-react-webpack-jest-app.git
+```
 - in the command line run
 ```
 $ npm i

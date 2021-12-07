@@ -23,7 +23,6 @@ $ npm start
   - webpack :smiling_face_with_three_hearts:
   - jest :stuck_out_tongue_winking_eye:
   - babel :disguised_face:
-  - hmr :sunglasses:
 
 :speech_balloon: Others: 
   - react-router-dom v6

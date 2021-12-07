@@ -79,11 +79,12 @@ function AppComponent() {
 }
 ```
 
-# Include Eslinterc 
+#🥶 Include Eslinterc  🤬
 
-Setup manual - [https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba]
+Setup manual - https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba
 
 Eslinterc config (.eslinterc.json)
+
 ```
 {
     "env": {

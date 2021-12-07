@@ -78,3 +78,68 @@ function AppComponent() {
     );
 }
 ```
+
+# Include Eslinterc 
+
+Setup manual - [https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba]
+
+Eslinterc config (.eslinterc.json)
+```
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-hooks",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "no-use-before-define": "off",
+        "import/prefer-default-export": "off",
+        "react/prop-types": "off",
+        "func-names": "off",
+        "react/require-default-props": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": ["error"],
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "@typescript-eslint/explicit-function-return-type": "off",
+        /*"@typescript-eslint/explicit-function-return-type": [
+            "error",
+            {
+                "allowExpressions": true
+            }
+        ],*/
+        "react/jsx-filename-extension": [ "warn", {"extensions": [".tsx"]} ],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "ts": "never",
+                "tsx": "never"
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
+    }
+}
+```

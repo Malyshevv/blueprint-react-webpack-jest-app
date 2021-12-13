@@ -51,12 +51,12 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.(svg|png|jpg|jpeg|gif)$/,
+            test: /\.(png|jpg|gif)$/i,
             use: [{
                 loader: 'file-loader',
                 options: {
-                    name: 'images/[name].[ext]',
-                    publicPath: 'static/'
+                    outputPath: 'image/',
+                    postTransformPublicPath: (p) => p,
                 },
             }],
         },{
